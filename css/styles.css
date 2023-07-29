@@ -419,6 +419,9 @@ ol {
   display: flex;
   gap: 16px;
 }
+.ftr-icon {
+  fill: var(--cloud);
+}
 .ftr-item {
   width: 40px;
   height: 40px;
@@ -427,7 +430,7 @@ ol {
 .ftr-link {
   width: 100%;
   height: 100%;
-  display: inline-flex;
+  display: flex;
   background-color: var(--iris);
   border-radius: 50%;
   align-items: center;
