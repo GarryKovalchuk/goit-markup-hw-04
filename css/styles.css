@@ -335,7 +335,10 @@ ol {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .box-client-item {
   width: 168px;
   height: 88px;
@@ -357,10 +360,9 @@ ol {
 .client-icon {
   flex-shrink: 0;
 }
-/*.client-icon {
-  fill: #8e8f99;
-}*/
-
+.customers-item {
+  width: calc((100% - 120px) / 6);
+}
 /*section-customers end*/
 /* Main end */
 
