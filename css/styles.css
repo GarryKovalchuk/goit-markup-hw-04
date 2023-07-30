@@ -380,6 +380,7 @@ ol {
 }
 .client-icon {
   flex-shrink: 0;
+  fill: var(--color4, #8e8f99);
 }
 .client-link:hover {
   border-color: #404bbf;
@@ -394,6 +395,9 @@ ol {
 /* Main end */
 
 /* footer start */
+.footer-container {
+  display: flex;
+}
 .footer {
   background: var(--navyblue);
   padding: 100px 0 100px;
@@ -439,6 +443,9 @@ ol {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+}
+.box-ftr {
+  margin-left: 120px;
 }
 
 /* footer end */
