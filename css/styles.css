@@ -144,6 +144,7 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier (0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -158,6 +159,7 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier (0.4, 0, 0.2, 1);
 }
 .address-list:hover,
 .address-list:focus {
@@ -393,10 +395,13 @@ ol {
   align-items: center;
   justify-content: center;
   color: var(#8e8f99);
+  transition: border-color 250ms cubic-bezier
+    (0.4, 0, 0.2, 1);
 }
 .client-icon {
   flex-shrink: 0;
   fill: var(--color4, #8e8f99);
+  transition: fill 250ms cubic-bezier (0.4, 0, 0.2, 1);
 }
 .client-link:hover {
   border-color: #404bbf;
