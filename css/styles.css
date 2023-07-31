@@ -349,7 +349,10 @@ ol {
   align-items: center;
   justify-content: center;
 }
-
+.team-link:hover,
+.team-link:focus {
+  background-color: #404bbf;
+}
 /* section-three-end */
 
 /*section-customers start*/
