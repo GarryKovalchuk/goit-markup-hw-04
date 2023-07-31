@@ -171,6 +171,34 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.current-studio::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 4px;
+  background: var(--ocean);
+}
+.current-studio {
+  color: var(--ocean);
+  position: relative;
+}
+.current-portfolio::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 4px;
+  background: var(--ocean);
+}
+.current-portfolio {
+  color: var(--ocean);
+  position: relative;
+}
 /* Header and */
 
 /* Main start */
