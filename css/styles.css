@@ -627,6 +627,11 @@ ol {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
 .modal {
   position: absolute;
   display: flex;
