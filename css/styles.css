@@ -379,6 +379,11 @@ ol {
   align-items: center;
   justify-content: center;
 }
+.team-social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .team-link {
   display: flex;
   width: 40px;
