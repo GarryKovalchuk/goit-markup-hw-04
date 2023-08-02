@@ -587,7 +587,7 @@ ol {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.img-cover {
+.cover-text {
   position: absolute;
   top: 0;
   height: 100%;
@@ -609,7 +609,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.2em;
 }
-.main-title:hover .img-cover,
+.main-title:hover .cover-text,
 .main-title:focus {
   transform: translateY(0);
 }
