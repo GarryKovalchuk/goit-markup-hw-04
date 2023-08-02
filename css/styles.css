@@ -417,10 +417,10 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.box-client-item {
+/*.box-client-item {
   width: 168px;
   height: 88px;
-}
+}*/
 .customers-list {
   display: flex;
   gap: 24px;
@@ -451,6 +451,8 @@ ol {
 }
 .customers-item {
   width: calc((100% - 120px) / 6);
+  width: 168px;
+  height: 88px;
 }
 /*section-customers end*/
 /* Main end */
