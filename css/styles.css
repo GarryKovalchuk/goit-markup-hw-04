@@ -458,6 +458,7 @@ ol {
 /* footer start */
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer {
   background: var(--navyblue);
@@ -483,6 +484,7 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .ftr-list {
   display: flex;
