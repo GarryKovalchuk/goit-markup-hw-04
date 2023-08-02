@@ -507,12 +507,12 @@ ol {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier
+    (0.4, 0, 0.2, 1);
 }
 .ftr-link:hover,
 .ftr-link:focus {
   background-color: #31d0aa;
-  transition: background-color 250ms cubic-bezier
-    (0.4, 0, 0.2, 1);
 }
 .ftr-one-item {
   margin-right: 120px;
