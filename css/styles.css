@@ -444,14 +444,14 @@ ol {
 }
 .client-icon {
   flex-shrink: 0;
-  fill: var(--lightslate);
+  color: var(--lightslate);
   transition: fill 250ms cubic-bezier (0.4, 0, 0.2, 1);
 }
 .client-link:hover {
   border-color: #404bbf;
 }
 .client-link:hover .client-icon {
-  fill: #404bbf;
+  color: #404bbf;
 }
 .customers-item {
   width: calc((100% - 120px) / 6);
