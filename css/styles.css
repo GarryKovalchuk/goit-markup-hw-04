@@ -454,6 +454,14 @@ ol {
 .client-link:hover .client-icon {
   fill: #404bbf;
 }
+.client-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.client-link:focus .client-icon {
+  fill: #404bbf;
+}
+
 .customers-item {
   width: calc((100% - 120px) / 6);
   width: 168px;
