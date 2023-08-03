@@ -625,7 +625,9 @@ ol {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-title:hover .cover-text {
   transform: translateY(0%);
