@@ -450,8 +450,7 @@ ol {
 .client-link:hover {
   border-color: #404bbf;
 }
-.client-link:hover,
-.client-icon:hover {
+.client-link:hover .client-icon {
   fill: #404bbf;
 }
 .customers-item {
