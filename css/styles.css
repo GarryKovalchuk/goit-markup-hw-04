@@ -449,7 +449,7 @@ ol {
 }
 .client-link:hover {
   border-color: #404bbf;
-  color: #8e8f99;
+  color: #404bbf;
 }
 .client-link:hover .client-icon {
   fill: #404bbf;
